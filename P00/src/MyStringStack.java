@@ -5,8 +5,8 @@ public class MyStringStack {
 private ArrayList<String> v = new ArrayList<String> ();
 	
 	public void push(String newElement){
-		if (newElement != null) 
-			v.add(newElement);	
+		//if (newElement != null) 
+		//	v.add(newElement);	
 	}	
 	
 	public String pop() throws IndexOutOfBoundsException {
